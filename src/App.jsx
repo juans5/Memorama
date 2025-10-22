@@ -1,6 +1,6 @@
 import { StartGame } from "./Components/StartGame";
 import { Routes, Route, Navigate } from "react-router-dom";
-import { useLocalStorage } from "./utils/useLocalStorage";
+import { useLocalStorage } from "./hooks/useLocalStorage";
 import { HistoryBoard } from "./Components/HistoryBoard";
 import { EasyMode } from "./Components/ModesMemorama/EasyMode";
 import { MediumMode } from "./Components/ModesMemorama/MediumMode";
