@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+.scroll-custom::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+.scroll-custom::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.scroll-custom::-webkit-scrollbar-thumb {
+  transition: all 0, 1s ease-in-out;
+  background: hsla(133, 67%, 8%, 0.837);
+  border-radius: 15px;
+}
+
+.scroll-custom::-webkit-scrollbar-thumb:hover {
+  background: hsla(133, 74%, 6%, 0.837);
+}
+
+.shadow-custom {
+  box-shadow: 0 0 10px 5px hsla(148, 70%, 53%, 0.737);
+}
+
+.button {
+  transition: opacity 0.4s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.button:hover {
+  opacity: 0.9;
+  transform: scale(1.05) translateY(-2px);
+}
